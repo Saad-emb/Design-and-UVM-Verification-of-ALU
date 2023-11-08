@@ -65,9 +65,7 @@ t.print(uvm_default_line_printer);
 
     default:
       `uvm_info("SCO", "Unsupported ALU_Sel value", UVM_NONE)
-  endcase
-  
-  
+  endcase  
 endfunction
   
   
