@@ -3,7 +3,6 @@ module alu(
            input [7:0] A,B,  // ALU 8bit Inputs          
   input [2:0] op,// ALU operation Selection
            output [7:0] ALU_Out, // ALU 8bit Output
- 
     );
     reg [7:0] ALU_Result;
     assign ALU_Out = ALU_Result; // ALU out
