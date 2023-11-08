@@ -14,7 +14,6 @@ virtual function void build_phase(uvm_phase phase);
 	s = scoreboard::type_id::create("SCO",this);
 endfunction
 
-
 virtual function void connect_phase(uvm_phase phase);
 	super.connect_phase(phase);
 	//inside monitor send port
